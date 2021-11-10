@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<appSettings>
+		<add key="aprimo-api-tenantid" value="" />
+		<add key="aprimo-api-clientid" value="" />
+		<add key="aprimo-api-clientsecret" value="" />
+		<add key="aprimo-api-dialogmode" value="default" />
+		<add key="aprimo-api-dialogbuttontext" value="Select" />
+		<add key="aprimo-api-dialogdescription" value="Select Asset" />
+		<add key="aprimo-api-dialogtitle" value="Select" />
+    </appSettings>
+    <episerver.shell>
+        <protectedModules>
+            <add name="Aprimo.Opti" />
+        </protectedModules>
+    </episerver.shell>
+</configuration>

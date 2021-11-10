@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Aprimo.Opti</id>
+    <version>2.0.0</version>
+    <title>Aprimo.Opti Content Provider for Aprimo DAM</title>
+    <authors>Aprimo</authors>
+    <owners>Aprimo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>images\icon.png</icon>
+    <projectUrl>https://github.com/Aprimo-Connect/aprimo-optimizely-extension</projectUrl>
+    <description>Aprimo content provider for Optimizely</description>
+    <summary>Integration Aprimo content assets into optimizely</summary>
+    <language>en</language>
+    <tags>Aprimo, Content Provider, Content Cloud, DAM, Commerce</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+      <dependency id="EPiServer.CMS.UI" version="11.36.0" />
+      <dependency id="EPiServer.CMS.AspNet" version="11.20.8" />
+      <dependency id="EPiServer.CMS.TinyMce" version="2.13.5" />
+      <dependency id="RestSharp" version="106.12.0" />
+      <dependency id="Dapper" version="2.0.90" />
+      <dependency id="RestSharp.Serializers.NewtonsoftJson" version="106.11.7" />
+    </dependencies>
+  </metadata>
+  <files>    
+    <file src="web.config.transform" target="content\web.config.transform" />
+    <file src="Aprimo.Opti\bin\Release\Aprimo.Opti.zip" target="content\modules\_protected\Aprimo.Opti\Aprimo.Opti.zip" />
+    <file src="images\icon.png" target="images\icon.png" />
+    <file src="Aprimo.Opti\bin\Release\Aprimo.Opti.dll" target="lib\net47\Aprimo.Opti.dll" />
+    <file src="Aprimo.Opti\bin\Release\Aprimo.Opti.pdb" target="lib\net47\Aprimo.Opti.pdb" />
+  </files>
+</package>
