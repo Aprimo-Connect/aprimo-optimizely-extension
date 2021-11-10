@@ -12,26 +12,21 @@
 ```
 
 ## Getting Started
-Before we can see the odp fields for the customer table and lists for campaigns, we need to enter our keys into the configuration manager for handling the connection between the aprimo/optimizely connector and Aprimo REST API / Content Seelctor.
+Before we can see the data in our Optimizely interface, we need to update the AppSettings values for handling the connection between the aprimo/optimizely connector and Aprimo REST API / Content Seelctor.
 
-Once we have our api keys we are going to login to Optimizely and click the Admin tab.  This will bring us to the admin screen where we will need to navigate to the "Config" tab and navigate to "Configuration Manager" located under the TOOLS SETTINGS section.  You will be presented with a configuration manager screen whcih will list all of your saved options.  
-You can either edit the current option for Aprimo.Opti.AprimoConnectorSettings or if this is the first time, select the Option Type "Aprimo.Opti.AprimoConnectorSettings" from the dropdown.  
-Take the keys you saved in the from Aprimo and update the values in the settings
-```json
-{
-  "AprimoUsername": "your_aprimo_username"
-  "AprimoClientId": "your_aprimo_client_id"
-  "AprimoUserToken": "your_aprimo_usertoken"
-  "AprimoTenantId": "your_aprimo_tenantid"
-  "DialogMode": "default",
-  "LabelButton": "Select",
-  "Description": "Aprimo Optimizely Integration Connector",
-  "Title": "Select"
-}
+Take the keys you saved from Aprimo and update the values in the AppSettings section of the web.config
+```xml
+<appSettings>
+  <add key="aprimo-api-tenantid" value="your_aprimo_username" />
+	<add key="aprimo-api-clientid" value="your_aprimo_client_id" />
+	<add key="aprimo-api-clientsecret" value="your_aprimo_clientsecret" />
+	<add key="aprimo-api-dialogmode" value="default" />
+	<add key="aprimo-api-dialogbuttontext" value="Select" />
+	<add key="aprimo-api-dialogdescription" value="Select Asset" />
+	<add key="aprimo-api-dialogtitle" value="Select" />
+</appSettings>
 ```
 and then click save.
-
-![Configuration Manager](https://github.com/JoshuaFolkerts/Aprimo.Opti/blob/master/readme-files/AprimoSettings.png)
 
 ## Including code in project (Manual Setup)
 If you choose to include the project in your own project.  You will need to setup this in a slightly different way.  You will need to reference the project and complete the same setup configuration as above by updating the configuration settings.  

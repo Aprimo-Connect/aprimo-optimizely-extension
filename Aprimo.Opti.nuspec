@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Aprimo.Opti</id>
+    <id>Aprimo.Optimizely.Extension</id>
     <version>2.0.0</version>
     <title>Aprimo.Opti Content Provider for Aprimo DAM</title>
     <authors>Aprimo</authors>
