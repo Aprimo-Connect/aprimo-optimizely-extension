@@ -158,3 +158,7 @@ public static string GetAprimoUrl(this ContentReference contentReference)  // wi
 public static string GetAprimoUrl(this Url url)
 public static string GetAprimoUrl(this ContentReference contentReference, string propertyName) // for thumbnails or different values
 ```
+# Open Source Policy
+
+For more information about Aprimo's Open Source Policies, please refer to
+https://community.aprimo.com/knowledgecenter/aprimo-connect/aprimo-connect-open-source
