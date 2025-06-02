@@ -10,6 +10,7 @@
 <dependency id="RestSharp" version="106.12.0" />
 <dependency id="RestSharp.Serializers.NewtonsoftJson" version="106.11.7" />
 ```
+Please note this connector was built and tested using Optimizely v11. We expect that development work will be needed to support Optimizely v12, or other versions of Optimizely.
 ## Aprimo's Open Source Policy
 This code is provided by Aprimo as-is as an example of how you might solve a specific business problem. It is not intended for direct use in Production without modification.
 
