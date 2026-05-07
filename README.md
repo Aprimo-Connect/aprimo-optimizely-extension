@@ -14,9 +14,9 @@ Please note this connector was built and tested using Optimizely v11. We expect 
 ## Aprimo's Open Source Policy
 This code is provided by Aprimo as-is as an example of how you might solve a specific business problem. It is not intended for direct use in Production without modification.
 
-You are welcome to submit issues or feedback to help us improve visibility into potential bugs or enhancements. Aprimo may, at its discretion, address minor bugs, but does not guarantee fixes or ongoing support.
+You are welcome to submit issues or feedback to help us improve visibility into potential bugs or enhancements. Aprimo may, at its discretion, address minor bugs, but does not guarantee fixes, vulnerability remediation or ongoing support.
 
-It is expected that developers who clone or use this code take full responsibility for supporting, maintaining, and securing any deployments derived from it.
+It is expected that developers who clone or use this code take full responsibility for supporting, maintaining, securing, and vulnerability management of any deployments derived from it.
 
 If you are interested in a production-ready and supported version of this solution, please contact your Aprimo account representative. They can connect you with our technical services team or a partner who may be able to build and support a packaged implementation for you.
 
